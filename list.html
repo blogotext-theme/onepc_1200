@@ -43,22 +43,19 @@
 	<div id="main" class="onepcssgrid-1200">
 		<div><a class="tooltip" id="top-link" href="#top" title="Haut de page"></a></div>
 		<header id="top" class="col12">
+			<nav class="navbar right">
+				<ul>
+					<li class="current"><a href="index.php">Menu</a></li>
+					<li><a href="index.php?mode=links">Liens</a></li>
+					<li><a href="index.php?mode=comments">Derniers commentaires</a></li>
+					<li><a href="?random">Un article au hasard !</a></li>
+					<li><a href="rss.php">Fil Rss du Blog</a></li>
+					<li><a href="rss.php?full">Fil Rss complet du Blog</a></li>
+				</ul>
+			</nav>
 			<div id="top_text">
 				<h1><a class="tooltip" href="{racine_du_site}" title="Revenir à l'accueil de {blog_nom}">{blog_nom}</a></h1>
 				<h2>{blog_description}</h2>
-			</div>
-			<div id="topmenu">
-				<form id="tabletmenu" action="#" method="post">
-					<select>
-						<option value="">Navigation</option>
-						<option value="index.php">Accueil</option>
-						<option value="index.php?mode=links">Liens</option>
-						<option value="index.php?mode=comments">Derniers commentaires</option>
-						<option value="?random">Un article au hasard !</option>
-						<option value="rss.php">Fil Rss du Blog</option>
-						<option value="rss.php?full">Fil Rss complet du Blog</option>
-					</select>
-				</form>
 			</div>
 		</header>
 		<div id="wrapper" class="onerow">
